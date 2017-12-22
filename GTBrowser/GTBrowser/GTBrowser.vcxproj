@@ -159,7 +159,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="HTMLText.cpp" />
     <ClCompile Include="Source.cpp" />
+    <ClCompile Include="Tag.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="HTMLText.h" />
+    <ClInclude Include="Tag.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
